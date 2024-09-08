@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vijeet Nigam - Data Scientist and Software Engineer. Explore my expertise in data science and software development.">
     <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Unicons stylesheet (for LinkedIn icon) -->
+   <link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet">
+    
+   <!-- Font Awesome stylesheet (for Kaggle icon) -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
@@ -106,16 +110,17 @@
                 <div class="home__content grid">
                     <div class="home__social">
                         <a href="https://www.linkedin.com/in/vijeetnigam26/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt" style="color: #37bae8;"></i>
+                            <i class="uil uil-linkedin-alt"></i>
                         </a>
                         <a href="https://kaggle.com/vijeetnigam26" target="_blank" class="home__social-icon">
-                            <img src="assets/img/Kaggle_logo.png" alt="Kaggle logo" width="40" style="color: blue;">
+                            <!-- <img src="assets/img/Kaggle_logo.png" alt="Kaggle logo" width="40" style="color: blue;"> -->
+                            <i class="fab fa-kaggle"></i>
                         </a>
                         <a href="https://github.com/vijeetnigam26" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt" style="color: #37bae8;"></i>
+                            <i class="uil uil-github-alt"></i>
                         </a>
-                        <a href="https://medium.com/@vijeetnigam26" target="_blank" class="home__social-icon">
-                            <i class="uil uil-instagram" style="color: #37bae8;"></i>
+                        <a href="https://www.instagram.com/vijeetnigam26/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram""></i>
                         </a>
                     </div>
 
@@ -291,15 +296,18 @@
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Git</h3>
                                     <h3 class="skills__name">InfluxDB</h3>
-                                    <h3 class="skills__name">Grafana</h3>
-                                    <h3 class="skills__name">Postman</h3>
+                                    <h3 class="skills__name">Power BI</h3>
                                 </div>
                                 <div class="skills__titles">
                                     <h3 class="skills__name">GCP</h3>
-                                    <h3 class="skills__name">MS Excel</h3>
-                                    <h3 class="skills__name">Docker</h3>
-                                    <h3 class="skills__name">MLFlow</h3>
+                                    <h3 class="skills__name">Postman</h3>
+                                    <h3 class="skills__name">Grafana</h3>
                                 </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Docker</h3>
+                                    <h3 class="skills__name">MS Excel</h3>
+                                    <h3 class="skills__name">MLFlow</h3>
+                                </div>                            
                             </div>
                         </div>
                     </div>
@@ -322,16 +330,18 @@
                                     <h3 class="skills__name">tensorflow</h3>
                                     <h3 class="skills__name">pytorch</h3>
                                     <h3 class="skills__name">keras</h3>
+                                </div>
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">transformers</h3>
+                                    <h3 class="skills__name">selenium</h3>
+                                    <h3 class="skills__name">numpy</h3>
+                                </div>
+                                <div class="skills__titles">
                                     <h3 class="skills__name">scikit-learn</h3>
+                                    <h3 class="skills__name">pandas</h3>
                                     <h3 class="skills__name">ADTK</h3>
                                 </div>
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">selenium</h3>
-                                    <h3 class="skills__name">numpy</h3>
-                                    <h3 class="skills__name">pandas</h3>
-
-                                    <h3 class="skills__name">transformers</h3>
-
                                     <h3 class="skills__name">NLTK</h3>
                                 </div>
                             </div>
@@ -537,7 +547,7 @@
 
                         <div class="Expertise__modal">
                             <div class="Expertise__modal-content">
-                                <h3 class="Expertise__modal-title">Data Science & Machine Learning</h3>
+                                <h3 class="Expertise__modal-title">Data Science & ML</h3>
                                 <i class="uil uil-times Expertise__modal-close"></i>
                                 
                                 <ul class="Expertise__modal-expertise grid">
@@ -706,7 +716,22 @@
                     </div>
                 </div>
 
+                <!--===================== Expertise 6 ====================-->
+                <a href="https://www.kaggle.com/vijeetnigam26" target="_blank">
+                    <div class="Expertise__content">
+                        <div>
+                            <img src="assets/img/kaggle_profile.png" alt="Kaggle Logo" class="Expertise__icon" style="width: 55px; height: 55px;">
 
+                            <h3 class="Expertise__title">Notebooks <br>Expert</h3>
+
+                            <span class="button button--flex button--small button--link Expertise__button">
+                               kaggle
+                            </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
 
@@ -798,7 +823,7 @@
 
         <!--==================== ARTICLES ====================-->
         <section class="articles section" id="articles">
-                <h2 class="section__title">Coding Profiles, Achievements & PORs</h2>
+                <h2 class="section__title">Coding Profiles, <br>Achievements & PORs</h2>
                 <span class="section__subtitle">See some of my published articles</span>
                 <div class="articles__container container swiper-container">
                     <div class="swiper-wrapper">
@@ -809,7 +834,7 @@
                             <h4><span style="background-color: blue; color: white; padding: 2px 5px;">3★</span> on CodeChef</h4>
                             <br>
                             <p>Max Rating: <b>1669</b></p>
-                            <p>Solved 50+ Problems</p>
+                            <p>Solved 150+ Problems</p>
                         </a>
                         </div>
                     </div>
@@ -820,7 +845,7 @@
                             <h4><span style="color: green; padding: 0px 5px;">Pupil</span>on Codeforces</h4>
                             <br>
                             <p>Max Rating: <b>1307</b></p>
-                            <p>Solved 100+ Problems</p>
+                            <p>Solved + Problems</p>
                         </a>
                     </div>
                 </div>
