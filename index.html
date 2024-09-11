@@ -726,7 +726,8 @@
 
                             <span class="button button--flex button--small button--link Expertise__button">
                                kaggle
-                            </span>
+                            <i class="uil uil-external-link-alt button__icon"></i>
+                        </span>
 
                             </div>
                         </div>
@@ -754,8 +755,9 @@
                             </p>
                             <a href="https://github.com/vijeetnigam26/Video-Recommendation-System"
                                 class="button button--flex button--small portfolio__button">
-                                View
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                GitHub
+                                <i class="uil uil-github-alt button__icon"></i>
+                                <!-- <i class="fab fa-kaggle button__icon"></i> -->
                             </a>
                         </div>
                     </div>
@@ -822,34 +824,78 @@
         </section>
 
         <!--==================== ARTICLES ====================-->
-        <section class="articles section" id="articles">
-                <h2 class="section__title">Coding Profiles, <br>Achievements & PORs</h2>
-                <span class="section__subtitle">See some of my published articles</span>
-                <div class="articles__container container swiper-container">
-                    <div class="swiper-wrapper">
-                    <!--==================== ARTICLE 1 ====================-->
-                    <div class="articles__content swiper-slide">
-                        <div class="card">
-                        <a href="https://www.codechef.com/users/vijeetnigam26" target="_blank">
-                            <h4><span style="background-color: blue; color: white; padding: 2px 5px;">3★</span> on CodeChef</h4>
-                            <br>
-                            <p>Max Rating: <b>1669</b></p>
-                            <p>Solved 150+ Problems</p>
-                        </a>
-                        </div>
-                    </div>
-                <!--==================== ARTICLE 2 ====================-->
-                <div class="articles__content swiper-slide">
-                    <div class="card">
-                        <a href="https://codeforces.com/profile/captjacksparrw" target="_blank">
-                            <h4><span style="color: green; padding: 0px 5px;">Pupil</span>on Codeforces</h4>
-                            <br>
-                            <p>Max Rating: <b>1307</b></p>
-                            <p>Solved + Problems</p>
-                        </a>
-                    </div>
-                </div>
-        </section>
+<section class="articles section" id="articles">
+    <h2 class="section__title">Coding Profiles, <br>Achievements & PORs</h2>
+    <span class="section__subtitle">See some of my published articles</span>
+    
+    <div class="articles__container container">
+        <!--==================== ARTICLE 1 ====================-->
+        <div class="articles__content">
+            <div class="card">
+                <a href="https://www.codechef.com/users/vijeetnigam26" target="_blank">
+                    <h4><span style="background-color: blue; color: white; padding: 2px 5px;">3★</span> on CodeChef</h4>
+                    <br>
+                    <p>Max Rating: <b>1669</b></p>
+                    <p>Solved 150+ Problems</p>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== ARTICLE 2 ====================-->
+        <div class="articles__content">
+            <div class="card">
+                <a href="https://codeforces.com/profile/captjacksparrw" target="_blank">
+                    <h4><span style="color: green; padding: 0px 5px;">Pupil</span> on Codeforces</h4>
+                    <br>
+                    <p>Max Rating: <b>1307</b></p>
+                    <p>Solved 50+ Problems</p>
+                </a>
+            </div>
+        </div>
+    </div>
+<!-- </section> -->
+
+<!-- <br> -->
+
+<style>
+    /* Default (for larger screens) */
+    .articles__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .articles__content {
+        flex: 1;
+        margin: 0 10px;
+    }
+
+    .card {
+        padding: 20px;
+        /* background-color: #f9f9f9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        border-radius: 8px;
+    }
+
+    /* Mobile view adjustments */
+    @media screen and (max-width: 768px) {
+        .articles__container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .articles__content {
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .card {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+</style>
+
+        <!-- </section> -->
             <!-- <h2 class="section__title">Medium Articles</h2> -->
             <!-- <span class="section__subtitle">See some of my published articles</span> -->
             <div class="articles__container container">
